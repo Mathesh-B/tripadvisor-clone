@@ -1,0 +1,224 @@
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin: 0px 14% 5px 14%;
+}
+
+.H1 .logo {
+    width: 180px;
+}
+
+.H2 nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: medium;
+}
+
+.H2 nav ul li {
+    border: solid white 1px;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.H2 nav ul li:hover {
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+}
+
+.H3 nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.H3 {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.H3 nav ul .button {
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.H3 nav ul .button1 {
+    border: solid white 1px;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.H3 nav ul .button1:hover {
+
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+}
+
+
+/* bodypage */
+
+.mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.mainpage h1 {
+    font-size: 56px;
+    font-stretch: condensed;
+}
+
+.navbar {
+    margin: 0px 170px 15px 170px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+}
+
+.navbar1 nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar1 h3 {
+    font-weight: lighter;
+
+}
+
+.navbar1 li {
+    border-bottom: solid white 3px;
+    display: flex;
+
+    gap: 10px;
+    height: 30px;
+}
+
+.navbar1 li:hover {
+    cursor: pointer;
+    border-bottom: solid black 3px;
+}
+
+
+/* bodypage ---- searchbar */
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(202, 196, 196) 1px;
+    border-radius: 35px;
+    margin: 0px auto;
+    width: 50%;
+    padding: 5px;
+    box-shadow: 0px 3px rgb(221, 217, 217);
+
+}
+
+.searchbar1 {
+    width: 87%;
+    padding-left: 15px;
+    font-size: large;
+    border: none;
+}
+
+.searchbar1:focus {
+    outline: none;
+}
+
+.searchbar p {
+
+    font-size: large;
+    border: solid #34E0A1 2px;
+    background-color: #34E0A1;
+    border-radius: 20px;
+    padding: 9px 15px;
+
+}
+
+.searchbar p:hover {
+    background-color: grey;
+    border-color: rgb(197, 194, 194);
+    cursor: pointer;
+}
+
+/* bodypage ---- bgimage */
+
+.bgimage {
+    display: flex;
+    margin: 50px 14% 60px 14%;
+}
+.bgimage img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+}
+.bgimage .bgcontent {
+    position: absolute;
+    color: white;
+    width: 50%;
+    margin-top: 16%;
+    margin-left: 30px;
+    font-size: larger;
+}
+.bgimage .bgcontent .p2{
+    color: black;
+    background-color: white;
+    border: solid white;
+    border-radius: 35px;
+    width: 110px;
+    padding: 13px;
+    margin: 18px 0px 18px 0px;
+    font-size: medium;
+}
+
+/* suggestions ---1 */
+
+
+
+.suggtitle {
+    margin: 0px 14% 0px 14%;
+}
+.suggtitle p{
+    padding: 12px 0px 20px 0px;
+}
+.suggestion{
+    display: flex;
+    margin: 0px 14% 0px 14%;
+    
+}
+
+.suggestion img{
+    height: 270px;
+    width: 270px;
+    border-radius: 15px;
+    position: relative;
+    
+}
+.suggestion1 .imgtitle{
+    position: absolute;
+}
+
+
+
