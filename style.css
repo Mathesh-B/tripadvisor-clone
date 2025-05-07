@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 15px;
-    margin: 0px 14% 5px 14%;
+    margin: 0px 5% 5px 5%;
 }
 
 .H1 .logo {
@@ -90,7 +90,7 @@ body {
 }
 
 .navbar {
-    margin: 0px 170px 15px 170px;
+    margin: 0px 5% 15px 5%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -167,58 +167,105 @@ body {
 
 .bgimage {
     display: flex;
-    margin: 50px 14% 60px 14%;
+    margin: 50px 5% 40px 5%;
 }
+
 .bgimage img {
     position: relative;
     width: 100%;
     border-radius: 15px;
 }
+
 .bgimage .bgcontent {
     position: absolute;
     color: white;
-    width: 50%;
-    margin-top: 16%;
+    width: 82%;
+    margin-top: 20%;
     margin-left: 30px;
     font-size: larger;
 }
-.bgimage .bgcontent .p2{
+
+.bgimage .bgcontent .p2 {
     color: black;
     background-color: white;
     border: solid white;
     border-radius: 35px;
     width: 110px;
     padding: 13px;
-    margin: 18px 0px 18px 0px;
+    margin: 22px 0px 18px 0px;
     font-size: medium;
 }
 
 /* suggestions ---1 */
 
-
-
 .suggtitle {
-    margin: 0px 14% 0px 14%;
+    margin: 60px 5% 0px 5%;
 }
-.suggtitle p{
+
+.suggtitle p {
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.suggtitle h4 {
     padding: 12px 0px 20px 0px;
-}
-.suggestion{
-    display: flex;
-    margin: 0px 14% 0px 14%;
-    
+    color: rgb(72, 72, 72);
+    font-weight: lighter;
 }
 
-.suggestion img{
-    height: 270px;
-    width: 270px;
+.suggestion img {
+    height: 267px;
+    width: 267px;
     border-radius: 15px;
-    position: relative;
-    
+
 }
-.suggestion1 .imgtitle{
+
+.suggestion1content {
     position: absolute;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    top: 82%;
+    padding-left: 10px;
+}
+
+.suggestionimagediv {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 5% 0px 5%;
+    gap: 20px;
+    position: relative;
+}
+
+/* suggesstion --2 */
+.suggestion2 img {
+    height: 255px;
+    width: 267px;
+    border-radius: 15px;
+}
+
+.suggestion2content {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    padding: 5px 0px 5px 0px;
+}
+
+.suggestion2content p {
+    color: rgb(148, 141, 141);
+    font-weight: lighter;
 }
 
 
+/* More to explore - cataloge */
+.explorebackground {
+    margin: 70px 0px 0px 0px;
+    background-color: #f2f1ec;
+    height: 350px;
+    width: 100%;
+}
 
+.wholediv {
+    margin: 5% 5% 5% 5%;
+    padding: 2% 0 2% 0;
+}
